@@ -14,6 +14,7 @@
         msg: 'params page'
       }
     },
+    //路由钩子函数
     beforeRouteEnter:(to,from,next)=>{
       console.log("准备进入路由模板");
       next();
